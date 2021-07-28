@@ -1,0 +1,39 @@
+.div.flexbox1{
+  background-color: #9EAC95;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  flex:0 1 1fr;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto;
+}p{
+  background-color:#C8E7B1;
+  color: black;
+  border: 3px solid #8A8E87;
+  margin: 10px;
+  padding: 30px;
+}.flexbox2{
+  display: flex;
+  flex-direction: row;
+  flex:0 1 1fr;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin:auto;
+}table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #DBCDDB;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #DBCDDB;
+}
